@@ -89,6 +89,7 @@ const Navbar = () => {
               LifeStyle
             </Link>
           </div>
+          <hr />
         </>
       )}
     </div>

@@ -2,9 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./CatCard.scss";
 
-function CatCard(props) {
-  const { item } = props;
-
+function CatCard({ item }) {
   return (
     <Link to="/gigs?cat=design">
       <div className="catCard">
@@ -15,5 +13,4 @@ function CatCard(props) {
     </Link>
   );
 }
-
 export default CatCard;
